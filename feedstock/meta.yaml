@@ -2,9 +2,9 @@ title: "ClimSim"
 description: >
   "An open large-scale dataset for training high-resolution physics emulators in hybrid multi-scale climate simulators"
 recipes:
-  - id: "climsim_highres_mli"
+  - id: "climsim-highres-mli"
     object: "recipe:climsim_highres_mli"
-  - id: "climsim_highres_mlo"
+  - id: "climsim-highres-mlo"
     object: "recipe:climsim_highres_mlo"
 provenance:
   providers:
