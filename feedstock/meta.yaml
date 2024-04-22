@@ -1,19 +1,25 @@
-title: "LEAP Data Library Prototype"
+title: "ClimSim"
 description: >
-  A prototype test for the LEAP Data Library refactor
+  "An open large-scale dataset for training high-resolution physics emulators in hybrid multi-scale climate simulators"
 recipes:
-  - id: "small"
-    object: "recipe:small"
-  - id: "large"
-    object: "recipe:large"
+  - id: "climsim_highres_mli"
+    object: "recipe:climsim_highres_mli"
+  - id: "climsim_highres_mlo"
+    object: "recipe:climsim_highres_mlo"
 provenance:
   providers:
-    - name: "Julius"
-      description: "Just a guy testing some recipes. Nothing to see here."
+    - name: "Hugging Face"
+      description: "Hugging Face"
+      roles:
+        - host
+      url: https://huggingface.co/datasets/LEAP/ClimSim_high-res
+    - name: "Sungduk Yu et al"
+      description: "ClimSim: An open large-scale dataset for training high-resolution physics emulators in hybrid multi-scale climate simulators"
       roles:
         - producer
         - licensor
-  license: "Just a Test"
+      url: https://arxiv.org/abs/2306.08754
+  license: "Apache-2.0"
 maintainers:
   - name: "Julius Busecke"
     orcid: "0000-0001-8571-865X"
