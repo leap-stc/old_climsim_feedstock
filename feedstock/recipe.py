@@ -198,7 +198,7 @@ climsim_highres_mli = (
     | InjectAttrs()
     | ConsolidateDimensionCoordinates()
     | ConsolidateMetadata()
-    | Copy(target=catalog_store_urls["climsim_highres_mli"])
+    | Copy(target=catalog_store_urls["climsim-highres-mli"])
 )
 
 mlo_make_url = functools.partial(make_url, ds_type='mlo')
@@ -214,5 +214,5 @@ climsim_highres_mlo = (
     | InjectAttrs()
     | ConsolidateDimensionCoordinates()
     | ConsolidateMetadata()
-    | Copy(target=catalog_store_urls["climsim_highres_mlo"])
+    | Copy(target=catalog_store_urls["climsim-highres-mlo"])
 )
