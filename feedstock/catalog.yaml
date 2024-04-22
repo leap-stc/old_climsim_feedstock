@@ -4,10 +4,10 @@ tags:
   - my-custom-tag
   - zarr
 stores:
-  - id: "climsim_highres_mli"
+  - id: "climsim-highres-mli"
     name: "Input ('mli') product of ClimSim high resolution real geography dataset."
     url: "gs://leap-scratch/data-library/feedstocks/latest/climsim_feedstock/climsim_highres_mli.zarr"
 
-  - id: "climsim_highres_mlo"
+  - id: "climsim-highres-mlo"
     name: "Output ('mlo') product of ClimSim high resolution real geography dataset."
     url: "gs://leap-scratch/data-library/feedstocks/latest/climsim_feedstock/climsim_highres_mlo.zarr"
