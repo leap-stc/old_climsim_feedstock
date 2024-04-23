@@ -1,16 +1,13 @@
 # All the information important to cataloging.
-"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/proto_feedstock/blob/main/feedstock/meta.yaml"
+"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/climsim_feedstock/blob/main/feedstock/meta.yaml"
 tags:
   - my-custom-tag
   - zarr
 stores:
-  - id: "small"
-    name: "The cool small Proto Dataset"
-    url: "gs://leap-scratch/data-library/feedstocks/latest/proto_feedstock/small.zarr"
-    "ncviewjs:rechunking":
-      - path: "gs://some-bucket/small.zarr"
-        use_case: "multiscales"
+  - id: "climsim-highres-mli"
+    name: "Input ('mli') product of ClimSim high resolution real geography dataset."
+    url: "gs://leap-scratch/data-library/feedstocks/latest/climsim_feedstock/climsim_highres_mli.zarr"
 
-  - id: "large"
-    name: "The even cooler large Proto Dataset" # no pyramids
-    url: "gs://leap-scratch/data-library/feedstocks/latest/proto_feedstock/large.zarr"
+  - id: "climsim-highres-mlo"
+    name: "Output ('mlo') product of ClimSim high resolution real geography dataset."
+    url: "gs://leap-scratch/data-library/feedstocks/latest/climsim_feedstock/climsim_highres_mlo.zarr"
